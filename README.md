@@ -1,0 +1,3 @@
+# Lua Type Error: Arithmetic on String
+
+This repository demonstrates a common error in Lua programming involving type mismatches during arithmetic operations.  Lua's dynamic typing allows for flexibility but can lead to runtime errors if not handled carefully.  The `bug.lua` file contains code that attempts arithmetic on a string value, causing an error. The solution, in `bugSolution.lua`, shows how to prevent this using type checking.
